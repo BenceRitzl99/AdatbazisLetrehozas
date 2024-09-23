@@ -1,0 +1,23 @@
+create database surubt
+collate utf8_hungarian_ci
+character set utf8;
+
+grant all privileges
+on surubt.*
+to surubt@localhost
+identified by 'titok';
+
+use surubt;
+
+
+
+
+
+
+ <dependencies>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+ </dependencies>
